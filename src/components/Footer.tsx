@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         
         <div className="text-white/70 space-y-2 mb-6">
-          <p className="font-semibold">Razão Social: GABRIELA RESENDE INÁCIO LTDA</p>
+          <p className="font-semibold">Razão Social: AltaFé - Instituto</p>
           <p>CNPJ: 56.491.831/0001-98</p>
         </div>
         
