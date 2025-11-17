@@ -1,6 +1,11 @@
 import Logo from "./Logo";
+import { Button } from "@/components/ui/button";
 
 const NewHeroSection = () => {
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="relative overflow-hidden bg-[linear-gradient(180deg,#4e2a05_0%,#8b530c_55%,#c67c13_100%)] py-24 px-4">
       <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center gap-12">
@@ -41,6 +46,15 @@ const NewHeroSection = () => {
           </span>{" "}
           e outros heróis da Bíblia, ganhando conhecimento direto da fonte.
         </p>
+
+        <div className="mt-4">
+          <Button
+            onClick={() => scrollToSection("pricing")}
+            className="rounded-full bg-[#32cd32] hover:bg-[#28a828] px-8 py-6 text-lg md:text-xl font-bold text-white shadow-lg transition-all"
+          >
+            QUERO ADQUIRIR O MEU
+          </Button>
+        </div>
       </div>
     </section>
   );
