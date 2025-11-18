@@ -65,7 +65,7 @@ const PricingSection = () => {
                   variant="cta"
                   size="lg"
                   className="w-full max-w-md rounded-lg bg-[#1fa347] px-12 py-5 text-lg font-semibold text-white hover:bg-[#188e3a]"
-                  onClick={() => window.open("https://pay.kirvano.com/0d6aec4a-3d96-4986-a90e-7edc9a100bf8", "_blank")}
+                  onClick={() => window.open("https://pay.kirvano.com/1a3073ee-0ec3-4d6b-9e53-8126fe0b80f7", "_blank")}
                 >
                   Comprar Agora
                 </Button>
@@ -127,7 +127,7 @@ const PricingSection = () => {
                   variant="cta"
                   size="lg"
                   className="w-full max-w-md rounded-lg bg-[#1fa347] px-12 py-5 text-lg font-semibold text-white hover:bg-[#188e3a]"
-                  onClick={() => window.open("https://pay.kirvano.com/0d6aec4a-3d96-4986-a90e-7edc9a100bf8", "_blank")}
+                  onClick={() => window.open("https://pay.kirvano.com/243a0d62-3cba-4965-b805-bfd602bf9e4c", "_blank")}
                 >
                   Comprar Agora
                 </Button>
