@@ -105,3 +105,20 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes pulse-border {
+    0%, 100% {
+      border-color: #1fa347;
+      box-shadow: 0 0 0 4px rgba(31, 163, 71, 0.5);
+    }
+    50% {
+      border-color: #188e3a;
+      box-shadow: 0 0 0 8px rgba(31, 163, 71, 0.8);
+    }
+  }
+
+  .animate-pulse-border {
+    animation: pulse-border 1.5s ease-in-out infinite;
+  }
+}
